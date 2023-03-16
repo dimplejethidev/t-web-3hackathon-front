@@ -1,0 +1,52 @@
+.contents {
+  position: relative;
+  width: 150px;
+  height: auto;
+  margin: 40px 20px;
+}
+
+.icon {
+}
+
+.iconImg {
+  width: 150px;
+  height: auto;
+}
+
+.detail {
+  position: absolute;
+  width: 150px;
+  bottom: -40px;
+}
+
+.levelAndStage {
+  display: flex;
+  justify-content: space-evenly;
+  border-radius: 30px;
+  overflow: hidden;
+  margin: 5px;
+}
+
+.level {
+  font-weight: bold;
+  background-color: #ea4e1f;
+  width: 50%;
+  text-align: center;
+  padding: 5px;
+}
+
+.stage {
+  font-weight: bold;
+  background-color: #545454;
+  width: 50%;
+  text-align: center;
+  padding: 5px;
+}
+
+.name {
+  display: flex;
+  justify-content: center;
+  font-size: large;
+  font-weight: bold;
+  margin: 5px;
+}
